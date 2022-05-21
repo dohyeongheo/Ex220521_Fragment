@@ -6,6 +6,7 @@ import androidx.fragment.app.FragmentManager;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private FragmentInfo info;
     private FragmentManager fm;
     private Fragmentlist list;
+    private EditText edt;
+
 
 
     @Override
